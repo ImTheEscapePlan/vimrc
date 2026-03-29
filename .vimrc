@@ -21,6 +21,7 @@ syntax on
 filetype plugin indent on
 
 colorscheme catppuccin_mocha
+set number
 set nocompatible
 set wildmenu
 set wildmode=longest,list,full
