@@ -7,6 +7,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 call plug#end()
 
@@ -34,3 +35,5 @@ set smartindent
 set backspace=indent,eol,start
 let g:airline_theme = 'catppuccin_mocha'
 let g:ctrlp_show_hidden = 1
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
