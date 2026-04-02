@@ -7,6 +7,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'junegunn/limelight.vim'
 call plug#end()
 
 inoremap <silent><expr> <TAB>
