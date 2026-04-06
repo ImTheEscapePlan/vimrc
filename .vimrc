@@ -1,8 +1,8 @@
 set termguicolors
 set background=dark
-call plug#begin()
 
-" List your plugins here
+" list plugins here
+call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
@@ -11,6 +11,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 call plug#end()
 
+" coc.nvim rules here
 inoremap <silent><expr> <TAB>
     \ coc#pum#visible() ? coc#pum#next(1) :
     \ CheckBackspace() ? "\<Tab>" :
@@ -27,6 +28,7 @@ endfunction
 syntax on
 filetype plugin indent on
 
+" vim specific rules here
 colorscheme catppuccin_mocha
 set number
 set nocompatible
