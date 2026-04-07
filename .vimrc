@@ -40,7 +40,10 @@ set shiftwidth=4
 set autoindent
 set smartindent
 set backspace=indent,eol,start
+set incsearch
+set scrolloff=1
 let g:airline_theme = 'catppuccin_mocha'
 let g:ctrlp_show_hidden = 1
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
+runtime! macros/matchit.vim
